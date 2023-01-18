@@ -1,0 +1,15 @@
+--- 
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+github-repo: jxg1119/data_map
+description: "This is a simple way of creating a data map as a webpage."
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
+```
+
+# 数据地图

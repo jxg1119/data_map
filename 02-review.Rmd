@@ -1,0 +1,10 @@
+# 数据总览
+
+所有数据表格总览
+
+```{r}
+library(readxl)
+data = read_excel("data_dict.xlsx")
+DT::datatable(data, rownames = FALSE, filter="top")
+```
+
